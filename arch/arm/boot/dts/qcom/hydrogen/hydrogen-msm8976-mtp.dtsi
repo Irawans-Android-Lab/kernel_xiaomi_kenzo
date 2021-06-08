@@ -456,6 +456,7 @@
 };
 
 /* CoreSight */
+#if 0
 &tpiu {
 	pinctrl-names = "sdcard", "trace", "swduart",
 			"swdtrc", "jtag", "spmi";
@@ -478,6 +479,7 @@
 	pinctrl-5 = <&qdsd_clk_spmi &qdsd_cmd_spmi
 		     &qdsd_data0_spmi &qdsd_data3_spmi>;
 };
+#endif
 
 /{
 	mtp_batterydata: qcom,battery-data {
